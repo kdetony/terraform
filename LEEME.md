@@ -12,7 +12,7 @@
 
 ## Obteniendo el fingerprint:
 
-ssh-keygen -E md5 -lf ~/.ssh/id_rsa.pub | awk '{print $2}'
+> ssh-keygen -E md5 -lf ~/.ssh/id_rsa.pub | awk '{print $2}'
 
 ## Ejecutamos
 
