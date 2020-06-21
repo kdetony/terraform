@@ -1,4 +1,4 @@
-Terraform % Digital Ocean
+Terraform & Digital Ocean
 =========================
 
 ## Creando un droplet en digital ocean mediante terraform.
