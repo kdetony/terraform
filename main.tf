@@ -1,5 +1,5 @@
-resource "digitalocean_ssh_key" "lade100" { 
-  name = "lade100"
+resource "digitalocean_ssh_key" "name_key" { 
+  name = "name_key"
   public_key = "${file("id_rsa.pub")}"
 }
 
@@ -11,7 +11,7 @@ resource "digitalocean_droplet" "docker" {
      size = "s-1vcpu-3gb"
      private_networking = true
      #ssh_keys = [var.ssh_fingerprint]
-     ssh_keys = ["${digitalocean_ssh_key.lade100.fingerprint}"]       
+     ssh_keys = ["${digitalocean_ssh_key.name_key.fingerprint}"]       
 
 connection {
      host = self.ipv4_address
