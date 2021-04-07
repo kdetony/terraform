@@ -7,3 +7,7 @@ LEEME
 3. Ejecutar: 
 
 > terraform apply -var "do_token=XXXX" -var "pvt_key=/root/.ssh/id_rsa"
+
+4. Variables de entorno:
+> export TF_VAR_do_token=
+> export TF_VAR_pvt_key=
