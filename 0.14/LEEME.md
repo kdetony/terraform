@@ -10,4 +10,5 @@ LEEME
 
 4. Variables de entorno:
 > export TF_VAR_do_token=
+
 > export TF_VAR_pvt_key=
